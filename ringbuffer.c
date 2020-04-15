@@ -10,7 +10,7 @@
 #include <unistd.h>
 
 #define RING_SIZE 6
-#define SLEEP_MICROS (3*1000*1000 + (rand() % (3 * 1000 * 1000)))
+#define SLEEP_MICROS (250*1000 + (rand() % (2 * 1000 * 1000)))
 #define STATE_PROD_CALC (1<<0)
 #define STATE_PROD_WAIT (1<<1)
 #define STATE_CONS_CALC (1<<2)
